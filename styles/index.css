@@ -70,6 +70,7 @@ top: 4rem;
     body{
         width: 100%;
         font-size: 10pt;
+        overflow-x: hidden ! important;
       }
         form {
             margin: auto;
@@ -83,6 +84,8 @@ top: 4rem;
         }
         .bgImage1 {
             width: 100%;
+            margin-left: 20px;
+            margin-right: 20px;
         }
         .frame {
             width: 15rem;
@@ -91,7 +94,7 @@ top: 4rem;
         }
         .textAlign {
             margin-top: 10rem;
-            width:400px;
+            width:100%;
         }
         .textHeader {
             font-size: 21px;
