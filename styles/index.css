@@ -140,5 +140,7 @@ top: 4rem;
         .cityDashboard{
             position: relative;
             right: 6rem;
+            padding-left: 1rem;
+            padding-right: 1rem;
         }
 }
