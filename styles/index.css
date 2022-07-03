@@ -93,8 +93,9 @@ top: 4rem;
             left: 52px;
         }
         .textAlign {
-            margin-top: 10rem;
+            margin-top: 5rem;
             width:100%;
+            padding: 10px;
         }
         .textHeader {
             font-size: 21px;
