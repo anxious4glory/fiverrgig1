@@ -45,12 +45,29 @@ top: 4rem;
 .svg {
     filter: invert(100%) sepia(0%) saturate(7484%) hue-rotate(132deg) brightness(98%) contrast(106%);
 }
+li{
+  margin-bottom: 8px;
+}
 
 @media only screen and (max-width: 800px) {
 
   body {
     width: 100%;
   }
+  .searchBar{
+    position: absolute;
+    left: 10rem;
+  }
+  .bgImage1 {
+    width: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.frame {
+    width: 25rem;
+    position: relative;
+    left: 150px;
+}
   .serviceGrid{
     display: grid;
     grid-template-columns: repeat(2, auto);
@@ -62,7 +79,17 @@ top: 4rem;
   .cardImage{
     display: none;
   }
-
+  .cityDashboard{
+    position: relative;
+    left: -7rem;
+}
+.cardSize{
+  width: 300px;
+}
+.footerS{
+  display: grid;
+  grid-template-columns: repeat(2);
+}
 }
 
 @media only screen and (max-width: 640px) {
