@@ -46,52 +46,85 @@ top: 4rem;
     filter: invert(100%) sepia(0%) saturate(7484%) hue-rotate(132deg) brightness(98%) contrast(106%);
 }
 
-
-@media only screen and (max-width: 768px) {
-  /*For mobile phones: */
-  body{
+@media only screen and (max-width: 800px) {
+  body {
     width: 100%;
+  }
+  .serviceGrid{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    
+  }
+  .cityInfoDashboard{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+  }
+  .cardImage{
+    display: none;
+  }
+}
 
-  }
-    form {
-        margin: auto;
-        width: 50%;
-    }
-    .heroSecBg{
+
+@media only screen and (max-width: 640px) {
+
+    body{
         width: 100%;
-    }
-    .heroSecImg { 
-        height: 100%;
-    }
-    .bgImage1 {
-        width: 20rem;
-    }
-    .frame {
-        width: 20rem;
-        position: relative;
-        left: 52px;
-    }
-    .textAlign {
-        margin-top: 10rem;
-        width:400px;
-    }
-    .textHeader {
-        font-size: 21px;
-        padding-bottom: 10px;
-    }
-    .textParagraph{
-        padding-bottom: 30px;
-    }
-    .btn{
-        margin-top: 20px;
-    }
-    .bgImage3 {
-        width: 100%;
-    }
-    .card4{
-        width: 100%;
+        font-size: 10pt;
+      }
+        form {
+            margin: auto;
+            width: 50%;
         }
-    .cardImage{
-        width: 100%;
-    }
-  }
+        .heroSecBg{
+            width: 100%;
+        }
+        .heroSecImg { 
+            height: 100%;
+        }
+        .bgImage1 {
+            width: 20rem;
+        }
+        .frame {
+            width: 20rem;
+            position: relative;
+            left: 52px;
+        }
+        .textAlign {
+            margin-top: 10rem;
+            width:400px;
+        }
+        .textHeader {
+            font-size: 21px;
+            padding-bottom: 10px;
+        }
+        .textParagraph{
+            padding-bottom: 30px;
+        }
+        .btn{
+            margin-top: 20px;
+        }
+        .bgImage3 {
+            width: 100%;
+        }
+        .card4{
+            width: 100%;
+            }
+        .cardImage{
+            width: 100%;
+        }
+        .serviceGrid{
+            display: grid;
+            grid-template-columns: repeat(1, auto);
+          }
+          .cityInfoDashboard{
+            display: grid;
+            grid-template-columns: repeat(1, auto);
+          }
+          .cardImage{
+            display: none;
+          }
+          .mbs{
+            position: relative;
+            right: 4rem;
+          }
+}
