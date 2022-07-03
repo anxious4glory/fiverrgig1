@@ -72,12 +72,20 @@ top: 4rem;
         font-size: 10pt;
         overflow-x: hidden ! important;
       }
-        form {
-            margin: auto;
-            width: 50%;
+        .searchBar{
+          position: absolute;
+          left: 20px;
+        }
+        .btn1{
+          display: absolute;
+          left: 13rem;
+          bottom: 1.7rem;
         }
         .heroSecBg{
             width: 100%;
+            padding: 10px;
+            margin-left: 10px;
+            margin-right: 10px;
         }
         .heroSecImg { 
             height: 100%;
